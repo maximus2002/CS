@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SDP Encryptor</string>
+    <string name="errormessage">Invalid Message</string>
+    <string name="errorkey">Invalid Key Number</string>
+    <string name="errorincrement">Invalid Increment Number</string>
+
+    <string name="fieldID1">messageInput</string>
+    <string name="fieldID2">keyNumber</string>
+    <string name="fieldID3">incrementNumber</string>
+    <string name="fieldID4">cipherText</string>
+    <string name="buttonID">encryptButton</string>
+
+
+</resources>

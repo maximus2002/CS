@@ -1,0 +1,90 @@
+JUnit version 4.12
+....E...E.E.E.E.E.E.E.E.E.E................E.E.......
+Time: 0.572
+There were 13 failures:
+1) encodeTest13(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #4. 
+Arguments used: [-r, -k, bY, C:\Users\minju\AppData\Local\Temp\junit14853139886100668056\junit17003032417234987054.tmp]
+Original File:                       
+                      
+                      
+                      
+ 
+New File Content:                       
+                      
+                      
+                      
+ 
+Output: 
+2) encodeTest31(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #8. 
+Arguments used: [-l, abc, C:\Users\minju\AppData\Local\Temp\junit9639600781939813931\junit9994460438643621501.tmp]
+Original File:   
+Throws Exception: java.lang.NullPointerException
+3) encodeTest32(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #5. 
+Arguments used: [-a, -a, C:\Users\minju\AppData\Local\Temp\junit7368212462106586800\junit11848181107019389555.tmp]
+Original File:   
+New File Content:   
+Output: 
+4) encodeTest33(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #4. 
+Arguments used: [[], C:\Users\minju\AppData\Local\Temp\junit11129853854822664915\junit6000505959386880852.tmp]
+Original File: ABCxyz123XYZabc 
+New File Content: abcXYZ123xyzABC 
+Output: 
+5) encodeTest34(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #10. 
+Arguments used: [, C:\Users\minju\AppData\Local\Temp\junit11217133314254759595\junit3893200922290526826.tmp]
+Original File: 										
+ 
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+6) encodeTest35(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #4. 
+Arguments used: [', C:\Users\minju\AppData\Local\Temp\junit8254199183918374269\junit4841589190148020194.tmp]
+Original File: 										
+ 
+New File Content: 										
+ 
+Output: 
+7) encodeTest36(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #2. 
+Arguments used: [-c, , C:\Users\minju\AppData\Local\Temp\junit13490790338153521321\junit5244876208021183155.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+8) encodeTest37(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #3. 
+Arguments used: [-r, , C:\Users\minju\AppData\Local\Temp\junit7352458287373894206\junit14491358485862458999.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+9) encodeTest38(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #9. 
+Arguments used: [-c, cC, C:\Users\minju\AppData\Local\Temp\junit12047597470514137540\junit13779947669865632452.tmp]
+Original File: abcXYZ3456ABCxyz 
+New File Content: abcXYZ3456ABCxyz 
+Output: 
+10) encodeTest39(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #1. 
+Arguments used: [-a, -1, C:\Users\minju\AppData\Local\Temp\junit10111218756489854726\junit9860897830628222820.tmp]
+Original File: abcXYZ3456ABCxyz 
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+11) encodeTest40(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #7. 
+Arguments used: [-k, C:\Users\minju\AppData\Local\Temp\junit8926176254128328190\junit1603232218931267244.tmp]
+Original File:  
+New File Content:  
+Output: 
+12) encodeTest1(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #6. 
+Arguments used: [C:\Users\minju\AppData\Local\Temp\junit15409461101612999435\junit1967165852120598832.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+13) encodeTest2(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #6. 
+Arguments used: [C:\Users\minju\AppData\Local\Temp\junit9488286689682385190\junit2445277241060839002.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+
+FAILURES!!!
+Tests run: 40,  Failures: 13
+

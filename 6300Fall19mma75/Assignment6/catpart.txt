@@ -1,0 +1,29 @@
+# File
+  Size:
+    Empty.		      [single][property emptyfile] 
+    Not empty.
+  Number of lines outputted:
+    None.		      [single][if !emptyfile] 
+    One. 		      [if !emptyfile]
+    Many.		      [if !emptyfile]
+
+ 
+# Input string
+  Length:
+    0.                        [property zerovalue]
+    1.
+    size - 1.
+    size + 1.
+    size*2.
+    size*2 - 1.
+    size*2 + 1.
+    maxint.
+  Content:
+    alphanumeric characters.  [if !zerovalue]
+    special characters.       [if !zerovalue]
+    spaces.                   [if !zerovalue]
+
+# FileName
+  Presence of a file corresponding to the name:
+    Not present.              [error]
+    Present.  
